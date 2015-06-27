@@ -1,0 +1,22 @@
+﻿빌드 시작: 2015-06-22 오후 10:13:07
+     1>2 노드의 "C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\plugins\ExtendedTools\ExtendedTools.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\plugins\include" /I"C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\sdk\include" /Zi /nologo /W3 /WX /sdl /MP /Od /D WIN64 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\plugins\ExtendedTools\obj\Debug64\\" /Fd"C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\plugins\ExtendedTools\obj\Debug64\vc120.pdb" /Gz /TC /errorReport:prompt gpumon.c
+         gpumon.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\plugins\..\bin\Debug64\plugins\ExtendedTools.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../sdk/lib/amd64 ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\plugins\..\bin\Debug64\plugins\ExtendedTools.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\plugins\..\bin\Debug64\plugins\ExtendedTools.lib" /MACHINE:X64 "C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\plugins\ExtendedTools\obj\Debug64\gpumon.obj"
+     1>gpumon.obj : error LNK2019: __imp_PhReferenceObject 외부 기호(참조 위치: EtGetGpuAdapterDescription 함수)에서 확인하지 못했습니다.
+     1>gpumon.obj : error LNK2019: __imp_PhDereferenceObject 외부 기호(참조 위치: EtSaveGpuMonitorSettings 함수)에서 확인하지 못했습니다.
+     1>gpumon.obj : error LNK2019: __imp_PhAllocate 외부 기호(참조 위치: EtAllocateGpuNodeBitMap 함수)에서 확인하지 못했습니다.
+     1>gpumon.obj : error LNK2019: __imp_PhFree 외부 기호(참조 위치: EtUpdateGpuNodeBitMap 함수)에서 확인하지 못했습니다.
+     1>gpumon.obj : error LNK2019: __imp_PhCreateStringEx 외부 기호(참조 위치: EtpQueryDeviceDescription 함수)에서 확인하지 못했습니다.
+     1>gpumon.obj : error LNK2019: __imp_PhCreateList 외부 기호(참조 위치: EtGpuMonitorInitialization 함수)에서 확인하지 못했습니다.
+     1>gpumon.obj : error LNK2019: __imp_PhAddItemList 외부 기호(참조 위치: EtpInitializeD3DStatistics 함수)에서 확인하지 못했습니다.
+     1>gpumon.obj : error LNK2019: __imp_PhBufferToHexString 외부 기호(참조 위치: EtSaveGpuMonitorSettings 함수)에서 확인하지 못했습니다.
+     1>gpumon.obj : error LNK2019: __imp_PhSetStringSetting2 외부 기호(참조 위치: EtSaveGpuMonitorSettings 함수)에서 확인하지 못했습니다.
+     1>C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\plugins\..\bin\Debug64\plugins\ExtendedTools.exe : fatal error LNK1120: 9개의 확인할 수 없는 외부 참조입니다.
+     1>"C:\Users\lge_dv_48\Documents\Visual Studio 2013\Projects\Test3\plugins\ExtendedTools\ExtendedTools.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:02.09

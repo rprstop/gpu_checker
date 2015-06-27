@@ -1,0 +1,38 @@
+﻿빌드 시작: 2015-06-16 오후 8:14:01
+     1>2 노드의 "C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\ExtendedTools.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../sdk/include /Zi /nologo /W3 /WX /sdl /MP /O2 /Ob2 /Oi /GL /D WIN64 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\\" /Fd"C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\vc120.pdb" /Gz /TC /errorReport:prompt gpumon.c gpunodes.c gpuprprp.c gpusys.c main.c procicon.c modsrv.c objprp.c options.c thrdact.c utils.c wswatch.c
+         gpumon.c
+         gpunodes.c
+         gpuprprp.c
+         gpusys.c
+         main.c
+         procicon.c
+         modsrv.c
+         objprp.c
+         options.c
+         thrdact.c
+         utils.c
+         wswatch.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\..\bin\Release64\plugins\ExtendedTools.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\bin\Release64\plugins /LIBPATH:../../sdk/lib/amd64 ProcessHacker.lib ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\..\bin\Release64\plugins\ExtendedTools.pdb" /SUBSYSTEM:CONSOLE,"5.02" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\..\bin\Release64\plugins\ExtendedTools.lib" /MACHINE:X64 C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\ExtendedTools.res
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\gpumon.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\gpunodes.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\gpuprprp.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\gpusys.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\main.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\procicon.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\modsrv.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\objprp.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\options.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\thrdact.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\utils.obj
+         C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\obj\Release64\wswatch.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         ExtendedTools.vcxproj -> C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\..\bin\Release64\plugins\ExtendedTools.exe
+     1>"C:\Users\lge_dv_48\Desktop\processhacker\2.x\trunk\plugins\ExtendedTools\ExtendedTools.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.78
